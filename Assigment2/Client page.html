@@ -1,0 +1,64 @@
+<!-- Zhuoying Yang   zyang7724@conestogac.on.ca -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Page</title>
+    <link rel="stylesheet" href="Css/style.CSS" />
+    <script rel="JavaScript" src="javascript/JS.js"></script>
+</head>
+
+<body background="http://www.ztkm.com/uploads/allimg/130118/2-13011Q62447.jpg">
+    <form name="kioskForm" action="" method="post">
+        <h1>Fruit shop.</h1>
+        <h2>Keep health every day!</h2>
+
+        <!-- choosepart -->
+        <label for="numberApple">Strong Apples! ($4.99)</label>
+        <input type="numberApple" id="numberApple" placeholder="10" />
+        <br />
+
+        <label for="numberOranges">Sweet Oranges~ ($6.77)</label>
+        <input type="numberOranges" id="numberOranges" placeholder="10" />
+        <br />
+
+        <label for="numberWatermenlon">Juice Watermenlon. ($23.66)</label>
+        <input type="numberWatermenlon" id="numberWatermenlon" placeholder="10" />
+        <br />
+
+        <label for="numberLemon">Sause Lemon. ($2.33)</label>
+        <input type="numberLemon" id="numberLemon" placeholder="10" />
+        <br />
+
+        <!-- typepart -->
+        <label for="clientName">Client Name</label>
+        <input type="clientName" id="clientName" placeholder="First Last" />
+        <br />
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="phoneNumber" id="phoneNumber" placeholder="XXX-XXX-XXXX" />
+        <br />
+
+        <label for="cardNumber">Credit Card Number:</label>
+        <input type="cardNumber" id="cardNumber" placeholder="XXXX-XXXX-XXXX-XXXX" />
+        <br />
+
+        <label for="cardExpiryM">Credit Card Expiry Month:</label>
+        <input type="cardExpiryM" id="cardExpiryM" placeholder="XX" />
+        <br />
+
+        <label for="cardExpiryY">Credit Card Expiry Year:</label>
+        <input type="cardExpiryY" id="cardExpiryY" placeholder="YYYY" />
+        <br />
+
+        <p id="errorShow">Error shows here.</p>
+        <input type="button" value="Checkout" onclick="checkout()">
+    </form>
+
+    <div id="receipt">Receipt shows here.</div>
+</body>
+
+</html>
